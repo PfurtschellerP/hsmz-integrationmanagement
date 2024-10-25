@@ -4,6 +4,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header {
   background-color: #333;
   color: white;
@@ -75,4 +81,13 @@ h2 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  width: 100%;
+  position: relative;
 }
